@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
   <title>段子</title>
   <link rel="stylesheet" href="./lib/weui/weui.min.css">
-  <link rel="stylesheet" href="./css/basic.css">
+  <link rel="stylesheet" id="skinColour" href="./css/basic.css">
 </head>
 <body>
 
@@ -21,10 +21,67 @@
     </ul>
   </div>
   <div class="right-icon">
-    <a class="icon iconfont">&#xe6e0;</a>
+    <a class="icon iconfont" id="j_changeSkin">&#xe6e0;</a>
   </div>
 </div>
 <div class="nav-bar-placeholder"></div>
+
+<!--BEGIN dialog1-->
+<div class="js_dialog" id="iosDialog1" style="display: none;">
+  <div class="weui-mask"></div>
+  <div class="weui-dialog">
+    <div class="weui-dialog__hd">
+      <strong class="weui-dialog__title">选择皮肤</strong>
+    </div>
+    <div class="weui-dialog__bd">
+      <div class="weui-cells weui-cells_radio">
+        <label class="weui-cell weui-check__label" for="x11">
+          <div class="weui-cell__bd">
+            <p>特别橙</p>
+          </div>
+          <div class="weui-cell__ft">
+            <input type="radio" class="weui-check" name="skinType" value="orange" id="x11"/>
+            <span class="weui-icon-checked"></span>
+          </div>
+        </label>
+        <label class="weui-cell weui-check__label" for="x12">
+
+          <div class="weui-cell__bd">
+            <p>耀眼红</p>
+          </div>
+          <div class="weui-cell__ft">
+            <input type="radio" name="skinType" class="weui-check" value="red" id="x12"/>
+            <span class="weui-icon-checked"></span>
+          </div>
+        </label>
+
+        <label class="weui-cell weui-check__label" for="x13">
+          <div class="weui-cell__bd">
+            <p>基佬紫</p>
+          </div>
+          <div class="weui-cell__ft">
+            <input type="radio" name="skinType" class="weui-check" value="purple" id="x13"/>
+            <span class="weui-icon-checked"></span>
+          </div>
+        </label>
+
+        <label class="weui-cell weui-check__label" for="x14">
+          <div class="weui-cell__bd">
+            <p>老王绿</p>
+          </div>
+          <div class="weui-cell__ft">
+            <input type="radio" name="skinType" class="weui-check" value="green" id="x14"/>
+            <span class="weui-icon-checked"></span>
+          </div>
+        </label>
+      </div>
+    </div>
+    <div class="weui-dialog__ft">
+      <a id="cancel" class="weui-dialog__btn weui-dialog__btn_default">取消</a>
+      <a id="confirm" class="weui-dialog__btn weui-dialog__btn_primary">确定</a>
+    </div>
+  </div>
+</div>
 
 <div class="panel-wrap">
   <div class="header">
@@ -156,6 +213,7 @@
 </div>
 
 <script src="lib/zepto/zepto.min.js"></script>
-<script src="lib/weui/weui.min.js"></script>
+<script src="lib/weui/weui.min.js"></script><script src="./basic.js"></script>
+
 </body>
 </html>

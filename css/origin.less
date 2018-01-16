@@ -1,0 +1,500 @@
+/*common reset*/
+body {
+  background: #F1F2F3;
+  padding-bottom: 80px;
+}
+
+.weui-mask {
+  background: rgba(0, 0, 0, 0.4)!important;
+}
+
+.nav-bar {
+  background: @basic-color;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+
+  .center {
+    width: 60%;
+    margin: 0 auto;
+    .menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      height: 45px;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      li {
+        display: inline-block;
+        height: 35px;
+        opacity: 0.8;
+        &.active {
+          opacity: 1;
+          border-bottom: 3px solid #fff;
+        }
+      }
+    }
+  }
+
+  .left-icon {
+    width: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    .iconfont {
+      font-size: 20px;
+    }
+  }
+
+  .right-icon {
+    width: 40px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-align: right;
+    .iconfont {
+      font-size: 20px;
+    }
+  }
+}
+
+.nav-bar-placeholder {
+  display: block;
+  height: 45px;
+}
+
+.bottom-nav-bar {
+  height: 45px;
+  line-height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid @basic-border-color;
+  color: @basic-text-color;
+  background: #fff;
+  .item {
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    &.active {
+      color: @basic-color;
+    }
+
+    .iconfont {
+      font-size: 20px;
+    }
+    .text {
+      font-size: 12px;
+    }
+
+    .sep-btn {
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 30px;
+      background: @basic-color;
+      color: #fff;
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
+.form-control {
+  margin-bottom: 15px;
+  outline: none;
+  .label {
+    color: @basic-text-color;
+    margin-bottom: 3px;
+    font-size: 13px;
+  }
+
+  input {
+    border: 1px solid @basic-border-color;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  textarea {
+    border: 1px solid @basic-border-color;
+    height: 220px;
+    line-height: 22px;
+    border-radius: 4px;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  &.with-btn {
+    input {
+      display: inline-block;
+      width: 60%;
+    }
+    button {
+      height: 40px;
+      line-height: 40px;
+      width: 38%;
+      display: inline-block;
+      font-size: 14px;
+    }
+  }
+
+  .btn-add-img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    text-align: center;
+    color: @basic-text-color;
+    background: #fff;
+    .iconfont {
+      font-size: 36px;
+    }
+
+    .text {
+      font-size: 12px;
+      transform: scale(0.8);
+    }
+  }
+}
+
+.weui-agree {
+  padding: 0;
+
+  .weui-agree__text {
+    a {
+      color: @basic-color;
+    }
+  }
+}
+
+.form-btn-wrap {
+  margin-top: 35px;
+}
+
+.notice-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+
+  a {
+    color: @basic-text-color;
+  }
+
+  .text-primary {
+    color: @basic-color;
+  }
+}
+
+.thrid-login-wrap {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  .title {
+    color: @basic-text-color;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+
+    .text {
+      background: #fff;
+      box-sizing: border-box;
+      padding: 0 10px;
+    }
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 1px;
+      display: inline-block;
+      background: @basic-text-color;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      z-index: -1;
+    }
+  }
+
+  .icons-wrap {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 24px;
+      background: @basic-color;
+      color: #fff;
+      border-radius: 40px;
+    }
+  }
+}
+
+.container {
+  padding: 15px 15px 100px 15px;
+}
+
+.weui-btn_primary {
+  background: @basic-color;
+}
+
+.weui-btn_primary:not(.weui-btn_disabled):active {
+  color: #fff;
+  background-color: Darken(@basic-color, 5%)
+}
+
+/*register */
+/*login*/
+
+/*index*/
+.panel-wrap {
+  background: #fff;
+  border-bottom: 1px solid @basic-border-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+    color: @basic-text-color;
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      width: 70%;
+
+      .time {
+        font-size: 12px;
+      }
+    }
+
+    .icon-love {
+      .iconfont {
+        font-size: 30px;
+        color: @basic-color;
+      }
+    }
+  }
+
+  .body {
+    padding: 5px 10px 10px;
+    color: @basic-text-color;
+    .content {
+      margin-bottom: 5px;
+    }
+    .img-wrap {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .footer {
+    .basic-info {
+      font-size: 12px;
+      padding: 5px 10px;
+      color: Lighten(@basic-text-color, 15%);
+
+      span {
+        margin-right: 15px;
+      }
+    }
+
+    .action-wrap {
+      padding: 10px;
+      .iconfont {
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid @basic-border-color;
+        color: @basic-text-color;
+      }
+
+    }
+  }
+}
+
+.comment-list-wrap {
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  color: @basic-text-color;
+
+  .comment-title {
+    font-size: 12px;
+  }
+
+  .comment-list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .comment-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      margin-bottom: 15px;
+      border-bottom: 1px solid @basic-border-color;
+      .item-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+
+      .item-content {
+        width: 80%;
+
+        .content-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 5px;
+          .right {
+            .iconfont {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*userCenter*/
+.user-mask {
+  width: 100%;
+  height: 200px;
+  background: #aaa;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: url('http://res.xiaomaiketang.com/xiaomai/bg-beauty_201801016.jpeg') no-repeat center;
+  background-size: 100%;
+  background-position: 0 0;
+  box-sizing: border-box;
+  .user-avatar-wrap {
+    margin: 20px 0;
+    text-align: center;
+    .user-avatar {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      overflow: hidden;
+      img {
+        display: inline-block;
+        width: 100%;
+        font-size: 0
+      }
+    }
+  }
+
+  .user-name {
+    color: #fff;
+    font-size: 13px;
+  }
+}
+
+.weui-cells {
+  margin-top: 10px;
+
+  .weui-cell {
+    font-size: 14px;
+    .weui-cell__bd {
+      color: @basic-text-color;
+    }
+    .weui-cell__ft {
+      color: @basic-text-color;
+    }
+
+    &:before {
+      left: 0
+    }
+  }
+
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  background: @basic-color;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 6px #aaa;
+  opacity: 0.7;
+  .iconfont {
+    font-size: 25px;
+  }
+}
+
+/*iconfont*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// 这里iconfont更新的时候地址需要更新 联系qq: 1518265554
+@font-face {
+  font-family: 'iconfont';  /* project id 543164 */
+  src: url('//at.alicdn.com/t/font_543164_qs479cxk7bny7gb9.eot');
+  src: url('//at.alicdn.com/t/font_543164_qs479cxk7bny7gb9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_543164_qs479cxk7bny7gb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_543164_qs479cxk7bny7gb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_543164_qs479cxk7bny7gb9.svg#iconfont') format('svg');
+}

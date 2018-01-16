@@ -8,7 +8,7 @@ body {
   background: rgba(0, 0, 0, 0.4) !important;
 }
 .nav-bar {
-  background: #34dad7;
+  background: #d245db;
   color: #fff;
   height: 45px;
   line-height: 45px;
@@ -82,7 +82,7 @@ body {
   padding-top: 5px;
 }
 .bottom-nav-bar .item.active {
-  color: #34dad7;
+  color: #d245db;
 }
 .bottom-nav-bar .item .iconfont {
   font-size: 20px;
@@ -95,7 +95,7 @@ body {
   height: 30px;
   line-height: 30px;
   border-radius: 30px;
-  background: #34dad7;
+  background: #d245db;
   color: #fff;
   position: relative;
   top: 3px;
@@ -160,7 +160,7 @@ body {
   padding: 0;
 }
 .weui-agree .weui-agree__text a {
-  color: #34dad7;
+  color: #d245db;
 }
 .form-btn-wrap {
   margin-top: 35px;
@@ -175,7 +175,7 @@ body {
   color: #666768;
 }
 .notice-wrap .text-primary {
-  color: #34dad7;
+  color: #d245db;
 }
 .thrid-login-wrap {
   width: 90%;
@@ -218,7 +218,7 @@ body {
   line-height: 40px;
   text-align: center;
   font-size: 24px;
-  background: #34dad7;
+  background: #d245db;
   color: #fff;
   border-radius: 40px;
 }
@@ -226,11 +226,11 @@ body {
   padding: 15px 15px 100px 15px;
 }
 .weui-btn_primary {
-  background: #34dad7;
+  background: #d245db;
 }
 .weui-btn_primary:not(.weui-btn_disabled):active {
   color: #fff;
-  background-color: #26cfcc;
+  background-color: #cd30d7;
 }
 /*register */
 /*login*/
@@ -266,7 +266,7 @@ body {
 }
 .panel-wrap .header .icon-love .iconfont {
   font-size: 30px;
-  color: #34dad7;
+  color: #d245db;
 }
 .panel-wrap .body {
   padding: 5px 10px 10px;
@@ -399,7 +399,7 @@ body {
   position: fixed;
   bottom: 70px;
   right: 30px;
-  background: #34dad7;
+  background: #d245db;
   color: #fff;
   width: 50px;
   height: 50px;
