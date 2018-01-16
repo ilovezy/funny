@@ -3,11 +3,12 @@
 
 @basic-text-color: #666768;
 
-@basic-border-color: #B3B4B5;
+@basic-border-color: #d4d5d6;
 
 /*common reset*/
 body {
   background: #F1F2F3;
+  padding-bottom: 80px;
 }
 
 .nav-bar {
@@ -20,6 +21,31 @@ body {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+
+  .center {
+    width: 60%;
+    margin: 0 auto;
+    .menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      height: 45px;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      li {
+        display: inline-block;
+        height: 35px;
+        opacity: 0.8;
+        &.active {
+          opacity: 1;
+          border-bottom: 3px solid #fff;
+        }
+      }
+    }
+  }
 
   .left-icon {
     width: 40px;
@@ -36,6 +62,7 @@ body {
     padding-right: 10px;
     box-sizing: border-box;
     font-size: 13px;
+    text-align: right;
     .iconfont {
       font-size: 20px;
     }
@@ -45,6 +72,45 @@ body {
 .nav-bar-placeholder {
   display: block;
   height: 45px;
+}
+
+.bottom-nav-bar {
+  height: 45px;
+  line-height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid @basic-border-color;
+  color: @basic-text-color;
+  background: #fff;
+  .item {
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    &.active {
+      color: @basic-color;
+    }
+
+    .iconfont {
+      font-size: 20px;
+    }
+    .text {
+      font-size: 12px;
+    }
+
+    .sep-btn {
+      width: 60px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 30px;
+      background: @basic-color;
+      color: #fff;
+      position: relative;
+      top: 3px;
+    }
+  }
 }
 
 .form-control {
@@ -250,6 +316,14 @@ body {
   .body {
     padding: 5px 10px 10px;
     color: @basic-text-color;
+    .content {
+      margin-bottom: 5px;
+    }
+    .img-wrap {
+      img {
+        max-width: 100%;
+      }
+    }
   }
 
   .footer {
@@ -278,6 +352,58 @@ body {
         color: @basic-text-color;
       }
 
+    }
+  }
+}
+
+.comment-list-wrap {
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  color: @basic-text-color;
+
+  .comment-title {
+    font-size: 12px;
+  }
+
+  .comment-list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .comment-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      margin-bottom: 15px;
+      border-bottom: 1px solid @basic-border-color;
+      .item-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+
+      .item-content {
+        width: 80%;
+
+        .content-top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 5px;
+          .right {
+            .iconfont {
+              font-size: 20px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -340,7 +466,7 @@ body {
 
 .back-to-top {
   position: fixed;
-  bottom: 30px;
+  bottom: 70px;
   right: 30px;
   background: @basic-color;
   color: #fff;
