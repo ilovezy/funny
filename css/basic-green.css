@@ -7,6 +7,12 @@ body {
 .weui-mask {
   background: rgba(0, 0, 0, 0.4) !important;
 }
+a {
+  color: #666768;
+}
+a:active {
+  color: #666768;
+}
 .nav-bar {
   background: #86d919;
   color: #fff;
@@ -21,6 +27,8 @@ body {
 .nav-bar .center {
   width: 60%;
   margin: 0 auto;
+  text-align: center;
+  color: #fff;
 }
 .nav-bar .center .menu {
   margin: 0;
@@ -55,6 +63,7 @@ body {
 }
 .nav-bar .left-icon .iconfont {
   font-size: 20px;
+  color: #fff;
 }
 .nav-bar .right-icon {
   width: 40px;
@@ -65,6 +74,7 @@ body {
 }
 .nav-bar .right-icon .iconfont {
   font-size: 20px;
+  color: #fff;
 }
 .nav-bar-placeholder {
   display: block;
@@ -404,6 +414,12 @@ body {
 }
 .weui-cells .weui-cell {
   font-size: 14px;
+}
+.weui-cells .weui-cell a {
+  color: #666768 !important;
+}
+.weui-cells .weui-cell a:active {
+  color: #666768 !important;
 }
 .weui-cells .weui-cell .weui-cell__bd {
   color: #666768;

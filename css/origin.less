@@ -7,7 +7,12 @@ body {
 .weui-mask {
   background: rgba(0, 0, 0, 0.4)!important;
 }
-
+a {
+  color: @basic-text-color;
+  &:active{
+    color: @basic-text-color;
+  }
+}
 .nav-bar {
   background: @basic-color;
   color: #fff;
@@ -22,6 +27,8 @@ body {
   .center {
     width: 60%;
     margin: 0 auto;
+    text-align: center;
+    color: #fff;
     .menu {
       margin: 0;
       padding: 0;
@@ -57,6 +64,7 @@ body {
     font-size: 13px;
     .iconfont {
       font-size: 20px;
+      color: #fff;
     }
   }
 
@@ -68,6 +76,7 @@ body {
     text-align: right;
     .iconfont {
       font-size: 20px;
+      color: #fff;
     }
   }
 }
@@ -467,6 +476,12 @@ body {
 
   .weui-cell {
     font-size: 14px;
+    a {
+      color: @basic-text-color!important;
+      &:active {
+        color: @basic-text-color!important;
+      }
+    }
     .weui-cell__bd {
       color: @basic-text-color;
     }
