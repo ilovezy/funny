@@ -26,12 +26,12 @@
   font-size: 20px;
 }
 .form-control {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   outline: none;
 }
 .form-control .label {
-  color: #b3b4b5;
-  margin-bottom: 5px;
+  color: #666768;
+  margin-bottom: 3px;
 }
 .form-control input {
   border: 1px solid #B3B4B5;
@@ -46,8 +46,61 @@
 .form-btn-wrap {
   margin-top: 45px;
 }
+.notice-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.notice-wrap a {
+  color: #666768;
+}
+.thrid-login-wrap {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.thrid-login-wrap .title {
+  color: #666768;
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+}
+.thrid-login-wrap .title .text {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.thrid-login-wrap .title:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  background: #666768;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: -1;
+}
+.thrid-login-wrap .icons-wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.thrid-login-wrap .icons-wrap .icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  background: #34dad7;
+  color: #fff;
+  border-radius: 40px;
+}
 .container {
-  padding: 30px 15px;
+  padding: 15px;
 }
 .weui-btn_primary {
   background: #34dad7;
