@@ -36,6 +36,12 @@ body {
         display: inline-block;
         height: 35px;
         opacity: 0.8;
+        a {
+          color: #fff;
+          &:active {
+            color: #fff;
+          }
+        }
         &.active {
           opacity: 1;
           border-bottom: 3px solid #fff;
@@ -83,11 +89,25 @@ body {
   color: @basic-text-color;
   background: #fff;
   .item {
+    a {
+      color: @basic-text-color;
+      &:active {
+        color: @basic-text-color;
+      }
+    }
+    &.active {
+      opacity: 1;
+      border-bottom: 3px solid #fff;
+    }
+
     line-height: 20px;
     text-align: center;
     padding-top: 5px;
     &.active {
       color: @basic-color;
+      a{
+        color: @basic-color;
+      }
     }
 
     .iconfont {

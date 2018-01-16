@@ -37,6 +37,12 @@ body {
   height: 35px;
   opacity: 0.8;
 }
+.nav-bar .center .menu li a {
+  color: #fff;
+}
+.nav-bar .center .menu li a:active {
+  color: #fff;
+}
 .nav-bar .center .menu li.active {
   opacity: 1;
   border-bottom: 3px solid #fff;
@@ -81,7 +87,20 @@ body {
   text-align: center;
   padding-top: 5px;
 }
+.bottom-nav-bar .item a {
+  color: #666768;
+}
+.bottom-nav-bar .item a:active {
+  color: #666768;
+}
 .bottom-nav-bar .item.active {
+  opacity: 1;
+  border-bottom: 3px solid #fff;
+}
+.bottom-nav-bar .item.active {
+  color: #ff7d30;
+}
+.bottom-nav-bar .item.active a {
   color: #ff7d30;
 }
 .bottom-nav-bar .item .iconfont {
