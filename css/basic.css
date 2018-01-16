@@ -40,7 +40,7 @@ body {
   font-size: 13px;
 }
 .form-control input {
-  border: 1px solid #B3B4B5;
+  border: 1px solid #b3b4b5;
   height: 40px;
   line-height: 40px;
   border-radius: 4px;
@@ -50,7 +50,7 @@ body {
   font-size: 14px;
 }
 .form-control textarea {
-  border: 1px solid #B3B4B5;
+  border: 1px solid #b3b4b5;
   height: 220px;
   line-height: 22px;
   border-radius: 4px;
@@ -165,6 +165,66 @@ body {
 /*register */
 /*login*/
 /*index*/
+.panel-wrap {
+  background: #fff;
+  border-bottom: 1px solid #b3b4b5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.panel-wrap .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+  color: #666768;
+}
+.panel-wrap .header .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.panel-wrap .header .avatar img {
+  width: 100%;
+}
+.panel-wrap .header .content {
+  width: 70%;
+}
+.panel-wrap .header .content .time {
+  font-size: 12px;
+}
+.panel-wrap .header .icon-love .iconfont {
+  font-size: 24px;
+  color: #34dad7;
+}
+.panel-wrap .body {
+  padding: 5px 10px 10px;
+  color: #666768;
+}
+.panel-wrap .footer .basic-info {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #8c8d8e;
+}
+.panel-wrap .footer .basic-info span {
+  margin-right: 15px;
+}
+.panel-wrap .footer .action-wrap {
+  padding: 10px;
+}
+.panel-wrap .footer .action-wrap .iconfont {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #b3b4b5;
+  color: #666768;
+}
 /*userCenter*/
 .user-mask {
   width: 100%;
@@ -226,8 +286,8 @@ body {
 }
 @font-face {
   font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.eot');
-  src: url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.woff') format('woff'), url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.eot');
+  src: url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.woff') format('woff'), url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.svg#iconfont') format('svg');
   
   /* project id 543164 */
 }

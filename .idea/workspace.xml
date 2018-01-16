@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12889cad-789d-4196-b659-111350f5e766" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/myCollection.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/basic.css" afterPath="$PROJECT_DIR$/css/basic.css" />
       <change beforePath="$PROJECT_DIR$/css/basic.less" afterPath="$PROJECT_DIR$/css/basic.less" />
-      <change beforePath="$PROJECT_DIR$/userCenter.html" afterPath="$PROJECT_DIR$/userCenter.html" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +16,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6423002">
+    <splitter split-orientation="horizontal" split-proportion="0.5292398">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/userCenter.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="470">
-                  <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+                <state relative-caret-position="639">
+                  <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="myCollection.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myCollection.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="621">
+                  <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -35,9 +56,13 @@
           <file leaf-file-name="basic.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/basic.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="441">
+                  <caret line="237" column="27" lean-forward="false" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#170#636#0" expanded="false" />
+                    <element signature="e#1744#1829#0" expanded="false" />
+                    <element signature="e#2086#2939#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -63,6 +88,8 @@
       <find>label</find>
       <find>form-cont</find>
       <find>form-control</find>
+      <find>space</find>
+      <find>Dard</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,6 +117,7 @@
         <option value="$PROJECT_DIR$/releaseVideo.html" />
         <option value="$PROJECT_DIR$/releaseImg.html" />
         <option value="$PROJECT_DIR$/userCenter.html" />
+        <option value="$PROJECT_DIR$/myCollection.html" />
         <option value="$PROJECT_DIR$/css/basic.less" />
       </list>
     </option>
@@ -101,8 +129,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,12 +309,12 @@
       <workItem from="1516071216985" duration="172000" />
       <workItem from="1516071823958" duration="1210000" />
       <workItem from="1516074081727" duration="6047000" />
-      <workItem from="1516082296568" duration="296000" />
+      <workItem from="1516082296568" duration="3087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10211000" />
+    <option name="totallyTimeSpent" value="13002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -334,7 +364,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/weui-master/package.json" />
     <entry file="file://$PROJECT_DIR$/lib/weui-master/src/example/snapshot/text.png" />
     <entry file="file://$PROJECT_DIR$/lib/weui-master/src/example/snapshot/result.png" />
     <entry file="file://$PROJECT_DIR$/lib/weui-master/src/example/snapshot/cell.png" />
@@ -383,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/iconfont/iconfont.svg" />
     <entry file="file://$PROJECT_DIR$/css/basic.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -434,14 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/findPassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -482,19 +496,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/userCenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="639">
+          <caret line="48" column="11" lean-forward="false" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myCollection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/basic.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="441">
+          <caret line="237" column="27" lean-forward="false" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
+          <folding>
+            <element signature="e#170#636#0" expanded="false" />
+            <element signature="e#1744#1829#0" expanded="false" />
+            <element signature="e#2086#2939#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

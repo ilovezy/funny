@@ -3,6 +3,8 @@
 
 @basic-text-color: #666768;
 
+@basic-border-color: #B3B4B5;
+
 /*common reset*/
 body {
   background: #F1F2F3;
@@ -48,7 +50,7 @@ body {
   }
 
   input {
-    border: 1px solid #B3B4B5;
+    border: 1px solid @basic-border-color;
     height: 40px;
     line-height: 40px;
     border-radius: 4px;
@@ -59,7 +61,7 @@ body {
   }
 
   textarea {
-    border: 1px solid #B3B4B5;
+    border: 1px solid @basic-border-color;
     height: 220px;
     line-height: 22px;
     border-radius: 4px;
@@ -196,7 +198,83 @@ body {
 
 /*register */
 /*login*/
+
 /*index*/
+.panel-wrap {
+  background: #fff;
+  border-bottom: 1px solid @basic-border-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+    color: @basic-text-color;
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .content {
+      width: 70%;
+
+      .time {
+        font-size: 12px;
+      }
+    }
+
+    .icon-love {
+      .iconfont {
+        font-size: 24px;
+        color: @basic-color;
+      }
+    }
+  }
+
+  .body {
+    padding: 5px 10px 10px;
+    color: @basic-text-color;
+  }
+
+  .footer {
+    .basic-info {
+      font-size: 12px;
+      padding: 5px 10px;
+      color: Lighten(@basic-text-color, 15%);
+
+      span {
+        margin-right: 15px;
+      }
+    }
+
+    .action-wrap {
+      padding: 10px;
+      .iconfont {
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid @basic-border-color;
+        color: @basic-text-color;
+      }
+
+    }
+  }
+}
+
 /*userCenter*/
 .user-mask {
   width: 100%;
@@ -242,7 +320,7 @@ body {
     .weui-cell__bd {
       color: @basic-text-color;
     }
-    .weui-cell__ft{
+    .weui-cell__ft {
       color: @basic-text-color;
     }
 
@@ -266,9 +344,9 @@ body {
 // 这里iconfont更新的时候地址需要更新 联系qq: 1518265554
 @font-face {
   font-family: 'iconfont';  /* project id 543164 */
-  src: url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.eot');
-  src: url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.woff') format('woff'),
-  url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_543164_tadu75xrj9kymn29.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.eot');
+  src: url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_543164_newbh2o5hcjo47vi.svg#iconfont') format('svg');
 }
