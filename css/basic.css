@@ -1,0 +1,78 @@
+/* basic color: #34DAD7 */
+/*common reset*/
+.nav-bar {
+  background: #34dad7;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .left-icon {
+  width: 30px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.nav-bar .left-icon .iconfont {
+  font-size: 20px;
+}
+.nav-bar .right-icon {
+  width: 30px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.nav-bar .right-icon .iconfont {
+  font-size: 20px;
+}
+.form-control {
+  margin-bottom: 20px;
+  outline: none;
+}
+.form-control .label {
+  color: #b3b4b5;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 1px solid #B3B4B5;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form-btn-wrap {
+  margin-top: 45px;
+}
+.container {
+  padding: 30px 15px;
+}
+.weui-btn_primary {
+  background: #34dad7;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active {
+  color: #fff;
+  background-color: #26cfcc;
+}
+/*register */
+/*login*/
+/*index*/
+/*userCenter*/
+/*iconfont*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_543164_uvdsh9ndzdy7rpb9.eot');
+  src: url('//at.alicdn.com/t/font_543164_uvdsh9ndzdy7rpb9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_uvdsh9ndzdy7rpb9.woff') format('woff'), url('//at.alicdn.com/t/font_543164_uvdsh9ndzdy7rpb9.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_uvdsh9ndzdy7rpb9.svg#iconfont') format('svg');
+  
+  /* project id 543164 */
+}
