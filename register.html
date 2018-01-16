@@ -3,14 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
-  <title>hel</title>
+  <title>注册</title>
   <link rel="stylesheet" href="./lib/weui/weui.min.css">
   <link rel="stylesheet" href="./css/basic.css">
 </head>
 <body>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad asperiores aspernatur autem delectus dolores, eligendi
-error eum excepturi explicabo ipsa iste nisi perspiciatis quam quis rem unde ut voluptatibus!
+<div class="nav-bar">
+  <div class="left-icon">
+    <a class="icon iconfont">&#xe602;</a>
+  </div>
+
+  <div class="center">
+    注册
+  </div>
+
+  <div class="right-icon">
+    <!--<a class="icon iconfont">&#xe604;</a>-->
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="form-control">
+    <div class="label">手机号</div>
+    <input type="text" placeholder="请输入手机号">
+  </div>
+
+  <div class="form-control with-btn">
+    <div class="label">验证码</div>
+    <input type="text" placeholder="请输入短信验证码">
+    <button class="weui-btn weui-btn_primary">发送验证码</button>
+  </div>
+
+  <div class="form-control">
+    <div class="label">密码</div>
+    <input type="text" placeholder="请设置新的登陆密码">
+  </div>
+
+  <label for="weuiAgree" class="weui-agree">
+    <input id="weuiAgree" type="checkbox" class="weui-agree__checkbox"/>
+    <span class="weui-agree__text">
+        我已阅读并同意<a>《趣搞笑》</a>用户协议及隐私条款。
+    </span>
+  </label>
+
+  <div class="form-btn-wrap">
+    <button class="weui-btn weui-btn_primary">
+      注册
+    </button>
+  </div>
+
+  <div class="notice-wrap">
+    <span></span>
+    <a class="text-primary">已有账号，直接登陆>></a>
+  </div>
+
+  <div class="thrid-login-wrap">
+    <div class="title">
+      <span class="text">第三方账号登陆</span>
+    </div>
+    <div class="icons-wrap">
+      <i class="icon iconfont">&#xe66a;</i>
+      <i class="icon iconfont">&#xe892;</i>
+      <i class="icon iconfont">&#xe612;</i>
+    </div>
+  </div>
+</div>
 
 <script src="lib/zepto/zepto.min.js"></script>
 <script src="lib/weui/weui.min.js"></script>
