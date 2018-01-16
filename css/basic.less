@@ -198,6 +198,61 @@ body {
 /*login*/
 /*index*/
 /*userCenter*/
+.user-mask {
+  width: 100%;
+  height: 200px;
+  background: #aaa;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: url('http://res.xiaomaiketang.com/xiaomai/bg-beauty_201801016.jpeg') no-repeat center;
+  background-size: 100%;
+  background-position: 0 0;
+  box-sizing: border-box;
+  .user-avatar-wrap {
+    margin: 20px 0;
+    text-align: center;
+    .user-avatar {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      overflow: hidden;
+      img {
+        display: inline-block;
+        width: 100%;
+        font-size: 0
+      }
+    }
+  }
+
+  .user-name {
+    color: #fff;
+    font-size: 13px;
+  }
+}
+
+.weui-cells {
+  margin-top: 10px;
+
+  .weui-cell {
+    font-size: 14px;
+    .weui-cell__bd {
+      color: @basic-text-color;
+    }
+    .weui-cell__ft{
+      color: @basic-text-color;
+    }
+
+    &:before {
+      left: 0
+    }
+  }
+
+}
+
 /*iconfont*/
 .iconfont {
   font-family: "iconfont" !important;
