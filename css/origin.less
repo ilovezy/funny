@@ -5,14 +5,16 @@ body {
 }
 
 .weui-mask {
-  background: rgba(0, 0, 0, 0.4)!important;
+  background: rgba(0, 0, 0, 0.4) !important;
 }
+
 a {
   color: @basic-text-color;
-  &:active{
+  &:active {
     color: @basic-text-color;
   }
 }
+
 .nav-bar {
   background: @basic-color;
   color: #fff;
@@ -66,6 +68,9 @@ a {
       font-size: 20px;
       color: #fff;
     }
+    a {
+      color: #fff;
+    }
   }
 
   .right-icon {
@@ -106,6 +111,8 @@ a {
   border-top: 1px solid @basic-border-color;
   color: @basic-text-color;
   background: #fff;
+  z-index: 12;
+
   .item {
     a {
       color: @basic-text-color;
@@ -123,7 +130,7 @@ a {
     padding-top: 5px;
     &.active {
       color: @basic-color;
-      a{
+      a {
         color: @basic-color;
       }
     }
@@ -487,9 +494,9 @@ a {
     font-size: 14px;
     a {
       display: block;
-      color: @basic-text-color!important;
+      color: @basic-text-color !important;
       &:active {
-        color: @basic-text-color!important;
+        color: @basic-text-color !important;
       }
     }
     .weui-cell__bd {
@@ -527,14 +534,45 @@ a {
 // 发布蒙层
 .release-panel {
   position: fixed;
-  bottom: 50px;
+  bottom: 45px;
   width: 100%;
   height: 180px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
+  padding: 15px;
   padding-bottom: 50px;
   z-index: 20;
   display: none;
   color: @basic-text-color;
+  box-sizing: border-box;
+  .release-icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 80px;
+    text-align: center;
+    color: #fff;
+    a{
+      color: #fff;
+    }
+
+    &.release-icon-video {
+      background: #26C0F8;
+      top: 90px;
+      left: 15px;
+    }
+    &.release-icon-story {
+      background: #F5CC3F;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &.release-icon-img {
+      background: #FC79A0;
+      top: 90px;
+      right: 15px;
+    }
+  }
 }
 
 /*iconfont*/

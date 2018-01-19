@@ -34,7 +34,6 @@ $('#j-release').on('click', function () {
 
 // index页面 tab 切换，需要后台自己做ajax数据获取和渲染
 $('#j-tab-select').on('click', 'li', function () {
-  console.log($(this).attr('data-target'))
   if (!$(this).hasClass('active')){
     $(this).siblings('li').removeClass('active')
     $(this).addClass('active')
