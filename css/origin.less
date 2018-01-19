@@ -23,7 +23,7 @@ a {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-
+  z-index: 12;
   .center {
     width: 60%;
     margin: 0 auto;
@@ -77,6 +77,15 @@ a {
     .iconfont {
       font-size: 20px;
       color: #fff;
+    }
+  }
+}
+
+.tab-container {
+  .tab-wrap {
+    display: none;
+    &.active {
+      display: block;
     }
   }
 }
@@ -477,6 +486,7 @@ a {
   .weui-cell {
     font-size: 14px;
     a {
+      display: block;
       color: @basic-text-color!important;
       &:active {
         color: @basic-text-color!important;

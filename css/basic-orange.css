@@ -23,6 +23,7 @@ a:active {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 12;
 }
 .nav-bar .center {
   width: 60%;
@@ -75,6 +76,12 @@ a:active {
 .nav-bar .right-icon .iconfont {
   font-size: 20px;
   color: #fff;
+}
+.tab-container .tab-wrap {
+  display: none;
+}
+.tab-container .tab-wrap.active {
+  display: block;
 }
 .nav-bar-placeholder {
   display: block;
@@ -416,6 +423,7 @@ a:active {
   font-size: 14px;
 }
 .weui-cells .weui-cell a {
+  display: block;
   color: #666768 !important;
 }
 .weui-cells .weui-cell a:active {

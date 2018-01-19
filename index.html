@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
   <title>段子</title>
   <link rel="stylesheet" href="./lib/weui/weui.min.css">
-  <link rel="stylesheet" href="./css/basic.css"><link rel="stylesheet" id="skinColour" href="./css/basic.css">
+  <link rel="stylesheet" href="css/basic-blue.css">
+  <link rel="stylesheet" id="skinColour" href="">
+  <script src="changeSkin.js"></script>
 </head>
 <body>
 
@@ -14,10 +16,10 @@
     <!--<a class="icon iconfont">&#xe602;</a>-->
   </div>
   <div class="center">
-    <ul class="menu">
-      <li><a href="funnyVideo.html">视频</a></li>
-      <li class="active">段子</li>
-      <li><a href="funnyImages.html">趣图</a></li>
+    <ul class="menu" id="j-tab-select">
+      <li data-target="j-video-wrap"><a>视频</a></li>
+      <li data-target="j-story-wrap" class="active"><a>段子</a></li>
+      <li data-target="j-img-wrap"><a>趣图</a></li>
     </ul>
   </div>
   <div class="right-icon">
@@ -35,6 +37,15 @@
     </div>
     <div class="weui-dialog__bd">
       <div class="weui-cells weui-cells_radio">
+        <label class="weui-cell weui-check__label" for="x10">
+          <div class="weui-cell__bd">
+            <p>很蓝很蓝</p>
+          </div>
+          <div class="weui-cell__ft">
+            <input type="radio" class="weui-check" name="skinType" value="blue" id="x10"/>
+            <span class="weui-icon-checked"></span>
+          </div>
+        </label>
         <label class="weui-cell weui-check__label" for="x11">
           <div class="weui-cell__bd">
             <p>特别橙</p>
@@ -44,8 +55,6 @@
             <span class="weui-icon-checked"></span>
           </div>
         </label>
-
-
         <label class="weui-cell weui-check__label" for="x13">
           <div class="weui-cell__bd">
             <p>基佬紫</p>
@@ -74,111 +83,344 @@
   </div>
 </div>
 
-<div class="panel-wrap">
-  <div class="header">
-    <div class="avatar">
-      <img src="http://res.xiaomaiketang.com/xiaomai/happyWinter_201801015.png" alt="">
-    </div>
-
-    <div class="content">
-      <div class="name">九里小烏龜</div>
-      <div class="time">2018年1月22日 12:30:30</div>
-    </div>
-
-    <div class="icon-love">
-      <i class="icon iconfont">&#xe63b;</i>
-    </div>
-  </div>
-
-  <div class="body">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur cupiditate omnis placeat ratione
-    repellat! Atque et iusto quam quos!
-  </div>
-
-  <div class="footer">
-    <div class="basic-info">
-      <span>点赞 466</span>
-      <span>评论 466</span>
-      <span>分享 466</span>
-      <span>阅读 466</span>
-    </div>
-
-    <div class="action-wrap">
-      <span class="icon iconfont">&#xe64a;</span>
-      <span class="icon iconfont">&#xe623;</span>
-      <span class="icon iconfont">&#xe624;</span>
-    </div>
-  </div>
-</div>
-
-<div class="comment-list-wrap">
-  <div class="comment-title">
-    热门评论
-  </div>
-  <ul class="comment-list">
-    <li class="comment-item">
-      <span class="item-avatar">
-        <img src="http://res.xiaomaiketang.com/xiaomai/newYearDay_201701208.png" alt="">
-      </span>
-
-      <div class="item-content">
-        <div class="content-top">
-          <span class="left">九亿少女的梦想</span>
-
-          <span class="right">
-            <i class="icon iconfont">&#xe64a;</i>
-            <span class="number">667</span>
-          </span>
+<div class="tab-container" id="j-tab-container">
+  <div class="tab-wrap" id="j-video-wrap">
+    <div class="panel-wrap">
+      <div class="header">
+        <div class="avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/happyWinter_201801015.png" alt="">
         </div>
 
-        <div class="content-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div class="content">
+          <div class="name">九里小烏龜</div>
+          <div class="time">2018年1月22日 12:30:30</div>
+        </div>
+
+        <div class="icon-love">
+          <i class="icon iconfont">&#xe63b;</i>
         </div>
       </div>
-    </li>
 
-    <li class="comment-item">
-      <span class="item-avatar">
-        <img src="http://res.xiaomaiketang.com/xiaomai/vote_20170807.png" alt="">
-      </span>
-
-      <div class="item-content">
-        <div class="content-top">
-          <span class="left">九亿少女的梦想</span>
-
-          <span class="right">
-            <i class="icon iconfont">&#xe64a;</i>
-            <span class="number">667</span>
-          </span>
+      <div class="body">
+        <div class="content">
+          repellat! Atque et iusto quam quos!
         </div>
-
-        <div class="content-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div class="img-wrap">
+          <img src="http://res.xiaomaiketang.com/xiaomai/happyWinter_201801015.png" alt="">
         </div>
       </div>
-    </li>
 
-    <li class="comment-item">
-      <span class="item-avatar">
-        <img src="http://res.xiaomaiketang.com/xiaomai/redPackage_2017012011.png" alt="">
-      </span>
-
-      <div class="item-content">
-        <div class="content-top">
-          <span class="left">九亿少女的梦想</span>
-
-          <span class="right">
-            <i class="icon iconfont">&#xe64a;</i>
-            <span class="number">667</span>
-          </span>
+      <div class="footer">
+        <div class="basic-info">
+          <span>点赞 466</span>
+          <span>评论 466</span>
+          <span>分享 466</span>
+          <span>阅读 466</span>
         </div>
 
-        <div class="content-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div class="action-wrap">
+          <span class="icon iconfont">&#xe64a;</span>
+          <span class="icon iconfont">&#xe623;</span>
+          <span class="icon iconfont">&#xe624;</span>
         </div>
       </div>
-    </li>
-  </ul>
+    </div>
+
+    <div class="comment-list-wrap">
+      <div class="comment-title">
+        热门评论
+      </div>
+      <ul class="comment-list">
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/newYearDay_201701208.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/vote_20170807.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/redPackage_2017012011.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-wrap active" id="j-story-wrap">
+    <div class="panel-wrap">
+      <div class="header">
+        <div class="avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/happyWinter_201801015.png" alt="">
+        </div>
+
+        <div class="content">
+          <div class="name">九里小烏龜</div>
+          <div class="time">2018年1月22日 12:30:30</div>
+        </div>
+
+        <div class="icon-love">
+          <i class="icon iconfont">&#xe63b;</i>
+        </div>
+      </div>
+
+      <div class="body">
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda dignissimos dolores earum ipsam
+          ipsum iure iusto laudantium magnam obcaecati perferendis quas, qui reprehenderit totam unde vel voluptas.
+          Nemo, recusandae.
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="basic-info">
+          <span>点赞 466</span>
+          <span>评论 466</span>
+          <span>分享 466</span>
+          <span>阅读 466</span>
+        </div>
+
+        <div class="action-wrap">
+          <span class="icon iconfont">&#xe64a;</span>
+          <span class="icon iconfont">&#xe623;</span>
+          <span class="icon iconfont">&#xe624;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment-list-wrap">
+      <div class="comment-title">
+        热门评论
+      </div>
+      <ul class="comment-list">
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/newYearDay_201701208.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/vote_20170807.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/redPackage_2017012011.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-wrap" id="j-img-wrap">
+    <div class="panel-wrap">
+      <div class="header">
+        <div class="avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/happyWinter_201801015.png" alt="">
+        </div>
+
+        <div class="content">
+          <div class="name">九里小烏龜</div>
+          <div class="time">2018年1月22日 12:30:30</div>
+        </div>
+
+        <div class="icon-love">
+          <i class="icon iconfont">&#xe63b;</i>
+        </div>
+      </div>
+
+      <div class="body">
+        <div class="content">
+          repellat! Atque et iusto quam quos!
+        </div>
+        <div class="img-wrap">
+          <img src="http://res.xiaomaiketang.com/xiaomai/good-img_201801016.jpeg" alt="">
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="basic-info">
+          <span>点赞 466</span>
+          <span>评论 466</span>
+          <span>分享 466</span>
+          <span>阅读 466</span>
+        </div>
+
+        <div class="action-wrap">
+          <span class="icon iconfont">&#xe64a;</span>
+          <span class="icon iconfont">&#xe623;</span>
+          <span class="icon iconfont">&#xe624;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment-list-wrap">
+      <div class="comment-title">
+        热门评论
+      </div>
+      <ul class="comment-list">
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/newYearDay_201701208.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/vote_20170807.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+
+        <li class="comment-item">
+        <span class="item-avatar">
+          <img src="http://res.xiaomaiketang.com/xiaomai/redPackage_2017012011.png" alt="">
+        </span>
+
+          <div class="item-content">
+            <div class="content-top">
+              <span class="left">九亿少女的梦想</span>
+
+              <span class="right">
+              <i class="icon iconfont">&#xe64a;</i>
+              <span class="number">667</span>
+            </span>
+            </div>
+
+            <div class="content-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="bottom-nav-bar">
@@ -198,16 +440,19 @@
     <div class="text"><a href="userCenter.html">我的</a></div>
   </div>
 </div>
+
 <div class="back-to-top">
   <i class="icon iconfont">&#xe600;</i>
 </div>
 
 <div id="j-release-panel" class="release-panel">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, neque nesciunt non odit quam ratione reiciendis sed tenetur voluptatem?
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, neque nesciunt non odit quam ratione reiciendis
+  sed tenetur voluptatem?
 </div>
 
 <script src="lib/zepto/zepto.min.js"></script>
-<script src="lib/weui/weui.min.js"></script><script src="./basic.js"></script>
+<script src="lib/weui/weui.min.js"></script>
+<script src="./basic.js"></script>
 
 </body>
 </html>
