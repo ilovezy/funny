@@ -32,6 +32,50 @@ $('#j-release').on('click', function () {
   $('#j-release-panel').fadeToggle()
 })
 
+// icon点击效果，有需要的话后台自定义一下吧
+$('.panel-wrap .action-wrap').on('click', '.iconfont',function () {
+  $(this).toggleClass('active')
+})
+
+// 收藏按钮
+$('.icon-love').on('click', function () {
+  if ($(this).hasClass('active')){
+    console.log('1')
+    $(this).removeClass('active')
+    $(this).find('.icon').html('&#xe63b;') // 爱心变成实心 xe65e
+  } else {
+    console.log('2')
+
+    $(this).addClass('active')
+    $(this).find('.icon').html('&#xe65e;') // 爱心变空心 xe63b
+  }
+})
+
+// 点赞按钮 需要后台自己做数据交互了
+$('.comment-list .content-top .right').on('click', function () {
+  var $number = $(this).find('.number')
+  var $numberHTML = Number($number.html())
+  console.log($numberHTML)
+
+  if ($(this).hasClass('active')){
+    $(this).removeClass('active')
+    $number.html($numberHTML-1)
+  } else {
+    $(this).addClass('active')
+    $number.html($numberHTML+1)
+  }
+})
+
+// 分享按钮，也要后台自己做了
+$('.icon-share').on('click', function () {
+  $('#j-share-panel').fadeToggle()
+})
+
+$('#j-share-mask').on('click', function () {
+  console.log('da')
+  $('#j-share-panel').fadeOut()
+})
+
 // index页面 tab 切换，需要后台自己做ajax数据获取和渲染
 $('#j-tab-select').on('click', 'li', function () {
   if (!$(this).hasClass('active')){

@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12889cad-789d-4196-b659-111350f5e766" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/basic-dark.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/basic-inkblue.less" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/basic.js" afterPath="$PROJECT_DIR$/basic.js" />
+      <change beforePath="$PROJECT_DIR$/css/basic-blue.css" afterPath="$PROJECT_DIR$/css/basic-blue.css" />
+      <change beforePath="$PROJECT_DIR$/css/basic-blue.less" afterPath="$PROJECT_DIR$/css/basic-blue.less" />
+      <change beforePath="$PROJECT_DIR$/css/basic-dark.css" afterPath="$PROJECT_DIR$/css/basic-dark.css" />
+      <change beforePath="$PROJECT_DIR$/css/basic-dark.less" afterPath="$PROJECT_DIR$/css/basic-dark.less" />
+      <change beforePath="$PROJECT_DIR$/css/basic-green.css" afterPath="$PROJECT_DIR$/css/basic-green.css" />
+      <change beforePath="$PROJECT_DIR$/css/basic-green.less" afterPath="$PROJECT_DIR$/css/basic-green.less" />
+      <change beforePath="$PROJECT_DIR$/css/basic-inkblue.css" afterPath="$PROJECT_DIR$/css/basic-inkblue.css" />
+      <change beforePath="$PROJECT_DIR$/css/basic-inkblue.less" afterPath="$PROJECT_DIR$/css/basic-inkblue.less" />
+      <change beforePath="$PROJECT_DIR$/css/basic-orange.css" afterPath="$PROJECT_DIR$/css/basic-orange.css" />
+      <change beforePath="$PROJECT_DIR$/css/basic-orange.less" afterPath="$PROJECT_DIR$/css/basic-orange.less" />
+      <change beforePath="$PROJECT_DIR$/css/basic-purple.css" afterPath="$PROJECT_DIR$/css/basic-purple.css" />
+      <change beforePath="$PROJECT_DIR$/css/origin.less" afterPath="$PROJECT_DIR$/css/origin.less" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/myCollection.html" afterPath="$PROJECT_DIR$/myCollection.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,63 +39,184 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="81" column="81" lean-forward="false" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic-inkblue.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/basic-inkblue.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic-dark.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/basic-dark.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic-blue.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/basic-blue.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userCenter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userCenter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4750245">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="178">
+                  <caret line="465" column="20" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="myCollection.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myCollection.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="354">
+                  <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+                  <folding>
+                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-green.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-green.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-blue.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-blue.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-dark.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-dark.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/basic.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-purple.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/basic-purple.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-orange.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-orange.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-inkblue.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-inkblue.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="origin.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/origin.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="102" column="8" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#2520#3598#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-green.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-green.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-dark.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-dark.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-purple.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-purple.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-blue.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/basic-blue.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-orange.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-orange.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basic-inkblue.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/basic-inkblue.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,25 +227,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>form-cont</find>
-      <find>form-control</find>
-      <find>space</find>
-      <find>Dard</find>
-      <find>nav-bar</find>
-      <find>back-to</find>
-      <find>\&lt;script src\=\&quot;lib\/weui\/weui\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n</find>
-      <find>flex</find>
-      <find>&lt;div class=&quot;text&quot;&gt;我的&lt;/div&gt;</find>
-      <find>&lt;link rel=&quot;stylesheet&quot; href=&quot;./css/basic.css&quot;&gt;</find>
-      <find>&lt;link rel=&quot;stylesheet&quot; id=&quot;skinColour&quot; href=&quot;./css/basic.css&quot;&gt;</find>
-      <find>navbar</find>
-      <find>.thrid-login-wrap</find>
-      <find>bottom-</find>
-      <find>\&lt;label class\=\&quot;weui\-cell weui\-check__label\&quot; for\=\&quot;x12\&quot;\&gt;\n\n          \&lt;div class\=\&quot;weui\-cell__bd\&quot;\&gt;\n            \&lt;p\&gt;耀眼红\&lt;\/p\&gt;\n          \&lt;\/div\&gt;\n          \&lt;div class\=\&quot;weui\-cell__ft\&quot;\&gt;\n            \&lt;input type\=\&quot;radio\&quot; name\=\&quot;skinType\&quot; class\=\&quot;weui\-check\&quot; value\=\&quot;red\&quot; id\=\&quot;x12\&quot;\/\&gt;\n            \&lt;span class\=\&quot;weui\-icon\-checked\&quot;\&gt;\&lt;\/span\&gt;\n          \&lt;\/div\&gt;\n        \&lt;\/label\&gt;</find>
       <find>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/basic-blue.css&quot;&gt;</find>
       <find>\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/basic\-blue\.css\&quot;\&gt;\&lt;link rel\=\&quot;stylesheet\&quot; id\=\&quot;skinColour\&quot; href\=\&quot;css\/basic\-blue\.css\&quot;\&gt;\n</find>
       <find>\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/basic\-blue\.css\&quot;\&gt;\&lt;link rel\=\&quot;stylesheet\&quot; id\=\&quot;skinColour\&quot; href\=\&quot;\&quot;\&gt;\n</find>
-      <find>href=&quot;&quot;&gt;</find>
       <find>href=&quot;&quot;&gt;</find>
       <find>p&gt;特别橙&lt;/p&gt;</find>
       <find>&amp;#xe602;</find>
@@ -124,6 +241,22 @@
       <find>release-panel</find>
       <find>取消</find>
       <find>left-icon</find>
+      <find>iconfont</find>
+      <find>panel-wrap</find>
+      <find>icon-col</find>
+      <find>color</find>
+      <find>xe63b</find>
+      <find>right</find>
+      <find>.right</find>
+      <find>comment-top</find>
+      <find>content-top</find>
+      <find>\&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe64a\;\&lt;\/span\&gt;\n          \&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe623\;\&lt;\/span\&gt;\n          \&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe624\;\&lt;\/span\&gt;</find>
+      <find>\&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe624\;\&lt;\/span\&gt;\n</find>
+      <find>release-</find>
+      <find>release</find>
+      <find>icon-love</find>
+      <find>xe624</find>
+      <find>bottom-</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;text&quot;&gt;&lt;a href=&quot;userCenter.html&quot;&gt;我的&lt;/a&gt;&lt;/div&gt;</replace>
@@ -132,6 +265,8 @@
       <replace />
       <replace>\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;css\/basic\-blue\.css\&quot;\&gt;\&lt;link rel\=\&quot;stylesheet\&quot; id\=\&quot;skinColour\&quot; href\=\&quot;&quot;\&gt;\n</replace>
       <replace>href=&quot;&quot;&gt;&lt;script src=&quot;changeSkin.js&quot;&gt;&lt;/script&gt;</replace>
+      <replace>\&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe64a\;\&lt;\/span\&gt;\n          \&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe623\;\&lt;\/span\&gt;\n          \&lt;span class\=\&quot;icon iconfont\&quot;\&gt;\&amp;\#xe624\;\&lt;\/span\&gt;</replace>
+      <replace>\&lt;span class\=\&quot;icon iconfont icon-share\&quot;\&gt;\&amp;\#xe624\;\&lt;\/span\&gt;\n</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/css</dir>
@@ -163,20 +298,20 @@
         <option value="$PROJECT_DIR$/funnyImages.html" />
         <option value="$PROJECT_DIR$/changeSkin.js" />
         <option value="$PROJECT_DIR$/findPassword.html" />
-        <option value="$PROJECT_DIR$/myCollection.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/basic.js" />
         <option value="$PROJECT_DIR$/releaseImg.html" />
-        <option value="$PROJECT_DIR$/css/origin.less" />
-        <option value="$PROJECT_DIR$/css/basic-purple.less" />
-        <option value="$PROJECT_DIR$/css/basic-orange.less" />
-        <option value="$PROJECT_DIR$/css/basic-green.less" />
-        <option value="$PROJECT_DIR$/css/basic-blue.less" />
         <option value="$PROJECT_DIR$/userCenter.html" />
-        <option value="$PROJECT_DIR$/css/basic-dark.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/basic.js" />
+        <option value="$PROJECT_DIR$/myCollection.html" />
+        <option value="$PROJECT_DIR$/css/origin.less" />
+        <option value="$PROJECT_DIR$/css/basic-orange.less" />
         <option value="$PROJECT_DIR$/css/basic-inkblue.less" />
+        <option value="$PROJECT_DIR$/css/basic-green.less" />
+        <option value="$PROJECT_DIR$/css/basic-dark.less" />
+        <option value="$PROJECT_DIR$/css/basic-blue.less" />
+        <option value="$PROJECT_DIR$/css/basic-purple.less" />
       </list>
     </option>
   </component>
@@ -220,6 +355,24 @@
               <item name="funny" type="b2602c69:ProjectViewProjectNode" />
               <item name="funny" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="funny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funny" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-blue.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="funny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funny" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-green.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="funny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="funny" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-purple.less" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -366,12 +519,12 @@
       <workItem from="1516098980150" duration="131000" />
       <workItem from="1516174457133" duration="44000" />
       <workItem from="1516328829433" duration="35000" />
-      <workItem from="1516329099522" duration="4639000" />
+      <workItem from="1516329099522" duration="8090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27250000" />
+    <option name="totallyTimeSpent" value="30701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -398,7 +551,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23021002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17528272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -555,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myCollection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -611,42 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/changeSkin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/findPassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/basic-purple.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/basic-orange.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -659,24 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/basic-green.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/origin.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#2520#3598#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userCenter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -685,39 +780,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/basic-blue.less">
+    <entry file="file://$PROJECT_DIR$/changeSkin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="81" column="81" lean-forward="false" selection-start-line="81" selection-start-column="81" selection-end-line="81" selection-end-column="81" />
+        <state relative-caret-position="178">
+          <caret line="465" column="20" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="503" selection-end-column="0" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/basic-dark.less">
+    <entry file="file://$PROJECT_DIR$/css/origin.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="245">
+          <caret line="102" column="8" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#2520#3598#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basic-orange.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/basic-inkblue.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basic-green.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basic-dark.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basic-blue.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myCollection.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basic-purple.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

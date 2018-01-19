@@ -392,6 +392,11 @@ a {
         text-align: center;
         border: 1px solid @basic-border-color;
         color: @basic-text-color;
+
+        &.active {
+          border: 1px solid @basic-color;
+          color: @basic-color;
+        }
       }
 
     }
@@ -442,6 +447,9 @@ a {
           .right {
             .iconfont {
               font-size: 20px;
+            }
+            &.active {
+              color: @basic-color;
             }
           }
         }
@@ -540,7 +548,7 @@ a {
   background: rgba(255, 255, 255, 0.7);
   padding: 15px;
   padding-bottom: 50px;
-  z-index: 20;
+  z-index: 2;
   display: none;
   color: @basic-text-color;
   box-sizing: border-box;
@@ -552,7 +560,7 @@ a {
     border-radius: 80px;
     text-align: center;
     color: #fff;
-    a{
+    a {
       color: #fff;
     }
 
@@ -573,6 +581,63 @@ a {
       right: 15px;
     }
   }
+}
+
+// 分享蒙层
+.share-panel {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 185px;
+  background: #fff;
+  z-index: 2;
+  display: none;
+  color: @basic-text-color;
+  box-sizing: border-box;
+  font-size: 0;
+
+  .share-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .share-icon-wrap {
+    z-index: 2;
+    padding: 15px 0;
+    background: #fff;
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+
+    .share-icon {
+      width: 25%;
+      box-sizing: border-box;
+      text-align: center;
+      overflow: hidden;
+      display: inline-block;
+      .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        display: inline-block;
+        background: @basic-color;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        font-size: 12px;
+        display: block;
+        color: @basic-text-color;
+      }
+    }
+  }
+
 }
 
 /*iconfont*/
