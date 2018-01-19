@@ -1,0 +1,518 @@
+/* basic color: #34DAD7 */
+/*common reset*/
+body {
+  background: #F1F2F3;
+  padding-bottom: 80px;
+}
+.weui-mask {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+a {
+  color: #666768;
+}
+a:active {
+  color: #666768;
+}
+.nav-bar {
+  background: #4b5880;
+  color: #fff;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+}
+.nav-bar .center {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.nav-bar .center .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 45px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.nav-bar .center .menu li {
+  display: inline-block;
+  height: 35px;
+  opacity: 0.8;
+}
+.nav-bar .center .menu li a {
+  color: #fff;
+}
+.nav-bar .center .menu li a:active {
+  color: #fff;
+}
+.nav-bar .center .menu li.active {
+  opacity: 1;
+  border-bottom: 3px solid #fff;
+}
+.nav-bar .left-icon {
+  width: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.nav-bar .left-icon .iconfont {
+  font-size: 20px;
+  color: #fff;
+}
+.nav-bar .left-icon a {
+  color: #fff;
+}
+.nav-bar .right-icon {
+  width: 40px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  text-align: right;
+}
+.nav-bar .right-icon .iconfont {
+  font-size: 20px;
+  color: #fff;
+}
+.tab-container .tab-wrap {
+  display: none;
+}
+.tab-container .tab-wrap.active {
+  display: block;
+}
+.nav-bar-placeholder {
+  display: block;
+  height: 45px;
+}
+.bottom-nav-bar {
+  height: 45px;
+  line-height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #d4d5d6;
+  color: #666768;
+  background: #fff;
+  z-index: 12;
+}
+.bottom-nav-bar .item {
+  line-height: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+.bottom-nav-bar .item a {
+  color: #666768;
+}
+.bottom-nav-bar .item a:active {
+  color: #666768;
+}
+.bottom-nav-bar .item.active {
+  opacity: 1;
+  border-bottom: 3px solid #fff;
+}
+.bottom-nav-bar .item.active {
+  color: #4b5880;
+}
+.bottom-nav-bar .item.active a {
+  color: #4b5880;
+}
+.bottom-nav-bar .item .iconfont {
+  font-size: 20px;
+}
+.bottom-nav-bar .item .text {
+  font-size: 12px;
+}
+.bottom-nav-bar .item .sep-btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+  background: #4b5880;
+  color: #fff;
+  position: relative;
+  top: 3px;
+}
+.form-control {
+  margin-bottom: 15px;
+  outline: none;
+}
+.form-control .label {
+  color: #666768;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+.form-control input {
+  border: 1px solid #d4d5d6;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form-control textarea {
+  border: 1px solid #d4d5d6;
+  height: 220px;
+  line-height: 22px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form-control.with-btn input {
+  display: inline-block;
+  width: 60%;
+}
+.form-control.with-btn button {
+  height: 40px;
+  line-height: 40px;
+  width: 38%;
+  display: inline-block;
+  font-size: 14px;
+}
+.form-control .btn-add-img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  text-align: center;
+  color: #666768;
+  background: #fff;
+}
+.form-control .btn-add-img .iconfont {
+  font-size: 36px;
+}
+.form-control .btn-add-img .text {
+  font-size: 12px;
+  transform: scale(0.8);
+}
+.weui-agree {
+  padding: 0;
+}
+.weui-agree .weui-agree__text a {
+  color: #4b5880;
+}
+.form-btn-wrap {
+  margin-top: 35px;
+}
+.notice-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.notice-wrap a {
+  color: #666768;
+}
+.notice-wrap .text-primary {
+  color: #4b5880;
+}
+.thrid-login-wrap {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.thrid-login-wrap .title {
+  color: #666768;
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+}
+.thrid-login-wrap .title .text {
+  background: #F1F2F3;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.thrid-login-wrap .title:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  background: #666768;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: -1;
+}
+.thrid-login-wrap .icons-wrap {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.thrid-login-wrap .icons-wrap .icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 24px;
+  background: #4b5880;
+  color: #fff;
+  border-radius: 40px;
+}
+.container {
+  padding: 15px 15px 100px 15px;
+}
+.weui-btn_primary {
+  background: #4b5880;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active {
+  color: #fff;
+  background-color: #424d70;
+}
+/*register */
+/*login*/
+/*index*/
+.panel-wrap {
+  background: #fff;
+  border-bottom: 1px solid #d4d5d6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.panel-wrap .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+  color: #666768;
+}
+.panel-wrap .header .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.panel-wrap .header .avatar img {
+  width: 100%;
+}
+.panel-wrap .header .content {
+  width: 70%;
+}
+.panel-wrap .header .content .time {
+  font-size: 12px;
+}
+.panel-wrap .header .icon-love .iconfont {
+  font-size: 30px;
+  color: #4b5880;
+}
+.panel-wrap .body {
+  padding: 5px 10px 10px;
+  color: #666768;
+}
+.panel-wrap .body .content {
+  margin-bottom: 5px;
+}
+.panel-wrap .body .img-wrap img {
+  max-width: 100%;
+}
+.panel-wrap .footer .basic-info {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #8c8d8e;
+}
+.panel-wrap .footer .basic-info span {
+  margin-right: 15px;
+}
+.panel-wrap .footer .action-wrap {
+  padding: 10px;
+}
+.panel-wrap .footer .action-wrap .iconfont {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #d4d5d6;
+  color: #666768;
+}
+.comment-list-wrap {
+  padding: 10px;
+  background: #fff;
+  box-sizing: border-box;
+  color: #666768;
+}
+.comment-list-wrap .comment-title {
+  font-size: 12px;
+}
+.comment-list-wrap .comment-list {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.comment-list-wrap .comment-list .comment-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #d4d5d6;
+}
+.comment-list-wrap .comment-list .comment-item .item-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.comment-list-wrap .comment-list .comment-item .item-avatar img {
+  width: 100%;
+}
+.comment-list-wrap .comment-list .comment-item .item-content {
+  width: 80%;
+}
+.comment-list-wrap .comment-list .comment-item .item-content .content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.comment-list-wrap .comment-list .comment-item .item-content .content-top .right .iconfont {
+  font-size: 20px;
+}
+/*userCenter*/
+.user-mask {
+  width: 100%;
+  height: 200px;
+  background: #aaa;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: url('http://res.xiaomaiketang.com/xiaomai/bg-beauty_201801016.jpeg') no-repeat center;
+  background-size: 100%;
+  background-position: 0 0;
+  box-sizing: border-box;
+}
+.user-mask .user-avatar-wrap {
+  margin: 20px 0;
+  text-align: center;
+}
+.user-mask .user-avatar-wrap .user-avatar {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.user-mask .user-avatar-wrap .user-avatar img {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+}
+.user-mask .user-name {
+  color: #fff;
+  font-size: 13px;
+}
+.weui-cells {
+  margin-top: 10px;
+}
+.weui-cells .weui-cell {
+  font-size: 14px;
+}
+.weui-cells .weui-cell a {
+  display: block;
+  color: #666768 !important;
+}
+.weui-cells .weui-cell a:active {
+  color: #666768 !important;
+}
+.weui-cells .weui-cell .weui-cell__bd {
+  color: #666768;
+}
+.weui-cells .weui-cell .weui-cell__ft {
+  color: #666768;
+}
+.weui-cells .weui-cell:before {
+  left: 0;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  background: #4b5880;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 6px #aaa;
+  opacity: 0.7;
+}
+.back-to-top .iconfont {
+  font-size: 25px;
+}
+.release-panel {
+  position: fixed;
+  bottom: 45px;
+  width: 100%;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  padding-bottom: 50px;
+  z-index: 20;
+  display: none;
+  color: #666768;
+  box-sizing: border-box;
+}
+.release-panel .release-icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 80px;
+  text-align: center;
+  color: #fff;
+}
+.release-panel .release-icon a {
+  color: #fff;
+}
+.release-panel .release-icon.release-icon-video {
+  background: #26C0F8;
+  top: 90px;
+  left: 15px;
+}
+.release-panel .release-icon.release-icon-story {
+  background: #F5CC3F;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.release-panel .release-icon.release-icon-img {
+  background: #FC79A0;
+  top: 90px;
+  right: 15px;
+}
+/*iconfont*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot');
+  src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.woff') format('woff'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.svg#iconfont') format('svg');
+  
+  /* project id 543164 */
+}
