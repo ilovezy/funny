@@ -8,10 +8,10 @@ body {
   background: rgba(0, 0, 0, 0.4) !important;
 }
 a {
-  color: #666768;
+  color: #666666;
 }
 a:active {
-  color: #666768;
+  color: #666666;
 }
 .nav-bar {
   background: #2b2930;
@@ -88,18 +88,18 @@ a:active {
 }
 .nav-bar-placeholder {
   display: block;
-  height: 45px;
+  height: 48px;
 }
 .bottom-nav-bar {
-  height: 45px;
-  line-height: 45px;
+  height: 48px;
+  line-height: 48px;
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid #d4d5d6;
-  color: #666768;
+  border-top: 1px solid #eaeaea;
+  color: #999999;
   background: #fff;
   z-index: 12;
 }
@@ -109,10 +109,10 @@ a:active {
   padding-top: 5px;
 }
 .bottom-nav-bar .item a {
-  color: #666768;
+  color: #999999;
 }
 .bottom-nav-bar .item a:active {
-  color: #666768;
+  color: #999999;
 }
 .bottom-nav-bar .item.active {
   opacity: 1;
@@ -132,25 +132,25 @@ a:active {
 }
 .bottom-nav-bar .item .sep-btn {
   width: 60px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 30px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 35px;
   background: #2b2930;
   color: #fff;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 .form-control {
   margin-bottom: 15px;
   outline: none;
 }
 .form-control .label {
-  color: #666768;
+  color: #666666;
   margin-bottom: 3px;
   font-size: 13px;
 }
 .form-control input {
-  border: 1px solid #d4d5d6;
+  border: 1px solid #eaeaea;
   height: 40px;
   line-height: 40px;
   border-radius: 4px;
@@ -160,7 +160,7 @@ a:active {
   font-size: 14px;
 }
 .form-control textarea {
-  border: 1px solid #d4d5d6;
+  border: 1px solid #eaeaea;
   height: 220px;
   line-height: 22px;
   border-radius: 4px;
@@ -186,7 +186,7 @@ a:active {
   height: 80px;
   border-radius: 4px;
   text-align: center;
-  color: #666768;
+  color: #666666;
   background: #fff;
 }
 .form-control .btn-add-img .iconfont {
@@ -212,7 +212,7 @@ a:active {
   font-size: 13px;
 }
 .notice-wrap a {
-  color: #666768;
+  color: #666666;
 }
 .notice-wrap .text-primary {
   color: #2b2930;
@@ -223,7 +223,7 @@ a:active {
   margin-top: 40px;
 }
 .thrid-login-wrap .title {
-  color: #666768;
+  color: #666666;
   text-align: center;
   margin-bottom: 15px;
   position: relative;
@@ -240,7 +240,7 @@ a:active {
   width: 100%;
   height: 1px;
   display: inline-block;
-  background: #666768;
+  background: #666666;
   position: absolute;
   top: 15px;
   left: 0;
@@ -256,11 +256,11 @@ a:active {
   width: 40px;
   height: 40px;
   line-height: 40px;
+  border-radius: 40px;
   text-align: center;
   font-size: 24px;
   background: #2b2930;
   color: #fff;
-  border-radius: 40px;
 }
 .container {
   padding: 15px 15px 100px 15px;
@@ -277,9 +277,10 @@ a:active {
 /*index*/
 .panel-wrap {
   background: #fff;
-  border-bottom: 1px solid #d4d5d6;
+  border-bottom: 1px solid #eaeaea;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .panel-wrap .header {
   display: flex;
@@ -287,12 +288,12 @@ a:active {
   align-items: center;
   height: 60px;
   padding: 0 10px;
-  color: #666768;
+  color: #999999;
 }
 .panel-wrap .header .avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
   overflow: hidden;
 }
 .panel-wrap .header .avatar img {
@@ -310,7 +311,7 @@ a:active {
 }
 .panel-wrap .body {
   padding: 5px 10px 10px;
-  color: #666768;
+  color: #666666;
 }
 .panel-wrap .body .content {
   margin-bottom: 5px;
@@ -321,7 +322,7 @@ a:active {
 .panel-wrap .footer .basic-info {
   font-size: 12px;
   padding: 5px 10px;
-  color: #8c8d8e;
+  color: #999999;
 }
 .panel-wrap .footer .basic-info span {
   margin-right: 15px;
@@ -338,18 +339,25 @@ a:active {
   border-radius: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid #d4d5d6;
-  color: #666768;
+  border: 1px solid #eaeaea;
+  color: #999999;
+  font-weight: bold;
 }
 .panel-wrap .footer .action-wrap .iconfont.active {
   border: 1px solid #2b2930;
   color: #2b2930;
 }
+.basic-comment-wrap {
+  padding: 0 15px;
+}
+.basic-comment-wrap .basic-comment-item {
+  color: #999999;
+}
 .comment-list-wrap {
   padding: 10px;
   background: #fff;
   box-sizing: border-box;
-  color: #666768;
+  color: #999999;
 }
 .comment-list-wrap .comment-title {
   font-size: 12px;
@@ -366,19 +374,21 @@ a:active {
   justify-content: space-between;
   padding: 5px 0;
   margin-bottom: 15px;
-  border-bottom: 1px solid #d4d5d6;
+  border-bottom: 1px solid #eaeaea;
 }
 .comment-list-wrap .comment-list .comment-item .item-avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
   overflow: hidden;
+  position: relative;
+  top: 5px;
 }
 .comment-list-wrap .comment-list .comment-item .item-avatar img {
   width: 100%;
 }
 .comment-list-wrap .comment-list .comment-item .item-content {
-  width: 80%;
+  width: 83%;
 }
 .comment-list-wrap .comment-list .comment-item .item-content .content-top {
   display: flex;
@@ -391,6 +401,9 @@ a:active {
 }
 .comment-list-wrap .comment-list .comment-item .item-content .content-top .right.active {
   color: #2b2930;
+}
+.comment-list-wrap .comment-list .comment-item .item-content .content-text {
+  color: #666666;
 }
 /*userCenter*/
 .user-mask {
@@ -435,16 +448,16 @@ a:active {
 }
 .weui-cells .weui-cell a {
   display: block;
-  color: #666768 !important;
+  color: #666666 !important;
 }
 .weui-cells .weui-cell a:active {
-  color: #666768 !important;
+  color: #666666 !important;
 }
 .weui-cells .weui-cell .weui-cell__bd {
-  color: #666768;
+  color: #666666;
 }
 .weui-cells .weui-cell .weui-cell__ft {
-  color: #666768;
+  color: #666666;
 }
 .weui-cells .weui-cell:before {
   left: 0;
@@ -455,10 +468,10 @@ a:active {
   right: 30px;
   background: #2b2930;
   color: #fff;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
   text-align: center;
   box-shadow: 0px 0px 6px #aaa;
   opacity: 0.7;
@@ -468,7 +481,7 @@ a:active {
 }
 .release-panel {
   position: fixed;
-  bottom: 45px;
+  bottom: 48px;
   width: 100%;
   height: 180px;
   background: rgba(255, 255, 255, 0.7);
@@ -476,7 +489,7 @@ a:active {
   padding-bottom: 50px;
   z-index: 2;
   display: none;
-  color: #666768;
+  color: #666666;
   box-sizing: border-box;
 }
 .release-panel .release-icon {
@@ -515,7 +528,7 @@ a:active {
   background: #fff;
   z-index: 2;
   display: none;
-  color: #666768;
+  color: #666666;
   box-sizing: border-box;
   font-size: 0;
 }
@@ -557,7 +570,7 @@ a:active {
 .share-panel .share-icon-wrap .share-icon .text {
   font-size: 12px;
   display: block;
-  color: #666768;
+  color: #666666;
 }
 /*iconfont*/
 .iconfont {
