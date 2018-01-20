@@ -583,8 +583,7 @@ a:active {
 }
 @font-face {
   font-family: 'iconfont';
+  /* project id 543164 */
   src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot');
   src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.woff') format('woff'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.svg#iconfont') format('svg');
-  
-  /* project id 543164 */
 }

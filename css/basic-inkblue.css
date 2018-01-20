@@ -14,7 +14,7 @@ a:active {
   color: #666666;
 }
 .nav-bar {
-  background: #4b5880;
+  background: #4B5880;
   color: #fff;
   height: 45px;
   line-height: 45px;
@@ -119,10 +119,10 @@ a:active {
   border-bottom: 3px solid #fff;
 }
 .bottom-nav-bar .item.active {
-  color: #4b5880;
+  color: #4B5880;
 }
 .bottom-nav-bar .item.active a {
-  color: #4b5880;
+  color: #4B5880;
 }
 .bottom-nav-bar .item .iconfont {
   font-size: 20px;
@@ -135,7 +135,7 @@ a:active {
   height: 35px;
   line-height: 35px;
   border-radius: 35px;
-  background: #4b5880;
+  background: #4B5880;
   color: #fff;
   position: relative;
   top: 2px;
@@ -200,7 +200,7 @@ a:active {
   padding: 0;
 }
 .weui-agree .weui-agree__text a {
-  color: #4b5880;
+  color: #4B5880;
 }
 .form-btn-wrap {
   margin-top: 35px;
@@ -215,7 +215,7 @@ a:active {
   color: #666666;
 }
 .notice-wrap .text-primary {
-  color: #4b5880;
+  color: #4B5880;
 }
 .thrid-login-wrap {
   width: 90%;
@@ -259,14 +259,14 @@ a:active {
   border-radius: 40px;
   text-align: center;
   font-size: 24px;
-  background: #4b5880;
+  background: #4B5880;
   color: #fff;
 }
 .container {
   padding: 15px 15px 100px 15px;
 }
 .weui-btn_primary {
-  background: #4b5880;
+  background: #4B5880;
 }
 .weui-btn_primary:not(.weui-btn_disabled):active {
   color: #fff;
@@ -307,7 +307,7 @@ a:active {
 }
 .panel-wrap .header .icon-love .iconfont {
   font-size: 30px;
-  color: #4b5880;
+  color: #4B5880;
 }
 .panel-wrap .body {
   padding: 5px 10px 10px;
@@ -344,8 +344,8 @@ a:active {
   font-weight: bold;
 }
 .panel-wrap .footer .action-wrap .iconfont.active {
-  border: 1px solid #4b5880;
-  color: #4b5880;
+  border: 1px solid #4B5880;
+  color: #4B5880;
 }
 .basic-comment-wrap {
   padding: 0 15px;
@@ -400,7 +400,7 @@ a:active {
   font-size: 20px;
 }
 .comment-list-wrap .comment-list .comment-item .item-content .content-top .right.active {
-  color: #4b5880;
+  color: #4B5880;
 }
 .comment-list-wrap .comment-list .comment-item .item-content .content-text {
   color: #666666;
@@ -466,7 +466,7 @@ a:active {
   position: fixed;
   bottom: 70px;
   right: 30px;
-  background: #4b5880;
+  background: #4B5880;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -562,7 +562,7 @@ a:active {
   height: 40px;
   border-radius: 40px;
   display: inline-block;
-  background: #4b5880;
+  background: #4B5880;
 }
 .share-panel .share-icon-wrap .share-icon .icon img {
   width: 100%;
@@ -583,8 +583,7 @@ a:active {
 }
 @font-face {
   font-family: 'iconfont';
+  /* project id 543164 */
   src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot');
   src: url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.woff') format('woff'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.ttf') format('truetype'), url('//at.alicdn.com/t/font_543164_d43cvthiznxqd7vi.svg#iconfont') format('svg');
-  
-  /* project id 543164 */
 }
